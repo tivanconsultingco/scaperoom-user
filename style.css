@@ -1,0 +1,13 @@
+:root { --prim:#2196f3; --dark:#0d47a1; --bg:#f5f7fb; }
+*{box-sizing:border-box;font-family:'iransans',sans-serif;}
+body{background:var(--bg);display:flex;justify-content:center;align-items:center;min-height:100vh;margin:0;}
+.card{background:#fff;padding:2rem;border-radius:16px;box-shadow:0 4px 20px rgba(0,0,0,.08);width:100%;max-width:420px}
+h1{text-align:center;font-size:1.4rem;margin-bottom:1.2rem}
+label{display:block;margin-top:1rem;font-weight:600}
+input[type=text]{width:100%;padding:.7rem;border:1px solid #ccc;border-radius:8px;margin-top:.3rem;font-size:1rem;direction:ltr}
+button{width:100%;padding:.8rem;margin-top:1.4rem;border:none;border-radius:8px;background:var(--prim);color:#fff;font-size:1rem;cursor:pointer;transition:.2s}
+button:hover{background:var(--dark)}
+.hidden{display:none}
+.skip{background:#e53935}
+.skip:hover{background:#b71c1c}
+#resultBox{margin-top:1rem;font-size:.9rem;line-height:1.7}
